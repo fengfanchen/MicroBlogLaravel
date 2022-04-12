@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "270bd7e376a6fbb836da0dcb22374641",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -666,6 +666,43 @@
             ],
             "description": "Update helper",
             "time": "2020-04-07T20:44:10+00:00"
+        },
+        {
+            "name": "laravel-lang/lang",
+            "version": "3.0.62",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel-lang/lang/3.0.62/laravel-lang-lang-3.0.62.zip",
+                "reference": "fcb8cec051b175278e0a9efa440f0b1033d12dd7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.10"
+            },
+            "suggest": {
+                "ablunier/laravel-lang-installer": "Command for easily add languages to a Laravel project",
+                "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
+                "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caouecs",
+                    "email": "caouecs@caouecs.net"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "time": "2019-03-17T10:36:46+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1403,6 +1440,51 @@
                 "serialize"
             ],
             "time": "2022-01-27T09:35:39+00:00"
+        },
+        {
+            "name": "overtrue/laravel-lang",
+            "version": "3.0.19",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/overtrue/laravel-lang/3.0.19/overtrue-laravel-lang-3.0.19.zip",
+                "reference": "fb6de57a454792833c96ffdcd4999c90468deb89",
+                "shasum": ""
+            },
+            "require": {
+                "laravel-lang/lang": "~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Overtrue\\LaravelLang\\TranslationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Overtrue\\LaravelLang\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "List of 52 languages for Laravel 5",
+            "keywords": [
+                "languages",
+                "laravel",
+                "overtrue"
+            ],
+            "time": "2021-04-28T03:36:48+00:00"
         },
         {
             "name": "paragonie/random_compat",
